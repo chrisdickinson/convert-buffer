@@ -1,0 +1,27 @@
+{
+  "name": "convert-buffer",
+  "version": "0.0.0",
+  "description": "stream to convert from list type a to list type b",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/convert-buffer.git"
+  },
+  "keywords": [
+    "through",
+    "stream",
+    "buffer",
+    "convert"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~0.2.2"
+  },
+  "dependencies": {
+    "through": "~2.2.0"
+  }
+}
