@@ -1,6 +1,6 @@
 {
   "name": "convert-buffer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "stream to convert from list type a to list type b",
   "main": "index.js",
   "scripts": {
