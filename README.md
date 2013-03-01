@@ -17,7 +17,7 @@ fs.createReadStream('file/path')
 #### convert(targetType[, howfunction][, decorateFunction]) -> stream
 
 Convert input from whatever list type to `targetType` (i.e., each new
-chunk calls `new targetType(input.length)`); assign params using `output[N] = how(input[N])`;
+chunk calls `new targetType(input.length)`); assign params using `output[N] = how(input, N)`;
 additionally modify the output using `decorateFunction`.
 
 # License
